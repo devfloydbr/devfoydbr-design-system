@@ -19,12 +19,13 @@ jobs:
           cache: 'npm'
           cache-dependency-path: '**/package-lock.json'
 
+      - run: npm i
       - run: npm ci
 
       - run: npm run build
         env:
           TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          TURBO_TEAM: rocketseat
+          TURBO_TEAM: devfloydbr
 
       - name: Deploy Storybook
         working-directory: ./packages/docs
