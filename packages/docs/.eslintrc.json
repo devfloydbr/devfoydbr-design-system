@@ -1,0 +1,6 @@
+{
+  "extends": "@devfloydbr-ui/eslint-config",
+  "rules": {
+    "prettier/prettier": 0
+  }
+}

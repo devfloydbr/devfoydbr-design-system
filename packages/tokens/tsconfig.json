@@ -1,0 +1,6 @@
+{
+  "extends": "@devfloydbr-ui/ts-config/tsconfig.base.json",
+  "include": [
+    "src"
+  ]
+}
