@@ -1,0 +1,2 @@
+import{A as t}from"./index-a29f2b9a.js";import"./index-34e51894.js";import"./es.object.get-own-property-descriptor-64192e07.js";import"./index-75cd1920.js";import"./jsx-runtime-da4cfb3b.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/devfloydbr.png",alt:"Guilherme J. Floyd"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},l=["Primary","WithFallback"];export{p as Primary,c as WithFallback,l as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories-dca4163f.js.map
